@@ -5,3 +5,8 @@ FROM docker.elastic.co/logstash/logstash-oss:${ELK_VERSION}
 
 # Add your logstash plugins setup here
 # Example: RUN logstash-plugin install logstash-filter-json
+
+# If using custom Gemfile
+#logstash-plugin install
+
+RUN logstash-plugin install logstash-filter-json
