@@ -1,0 +1,14 @@
+# 20190427
+
+Already forked repo.
+
+Now creating image and uploading to docker hub.
+
+https://docs.docker.com/get-started/part2/
+
+# 20190519
+
+Have since created launchctl script to load docker on startup but it doesn't seem to be working
+from launchctl. Only if we run the start screen script manually does it work.
+
+Note: abandoning idea of using AWS as docker requires too many resources for the free tiered EC2 instance.
